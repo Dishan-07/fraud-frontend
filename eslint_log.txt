@@ -1,0 +1,21 @@
+﻿
+C:\Users\Dishan\Downloads\PROJECT\AD_LAB_ML_PROJECT_FRONTEND\src\components\AnalyzeForm.tsx
+    5:57   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   53:28   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   61:28   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  166:137  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  166:172  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  202:109  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Dishan\Downloads\PROJECT\AD_LAB_ML_PROJECT_FRONTEND\src\components\MetricCards.tsx
+  44:98  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Dishan\Downloads\PROJECT\AD_LAB_ML_PROJECT_FRONTEND\src\components\ui\login-form.tsx
+  215:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  232:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  248:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  264:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  281:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 12 problems (12 errors, 0 warnings)
+
