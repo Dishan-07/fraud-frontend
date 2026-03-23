@@ -58,7 +58,7 @@ export const register = async (
   full_name: string, email: string, password: string
 ) => {
   try {
-    const res = await fetch("http://localhost:8000/auth/register", {
+    const res = await fetch("http://fraud-api-production-4a4e.up.railway.app/auth/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ full_name, email, password }),
@@ -73,7 +73,7 @@ export const register = async (
 
 export const login = async (email: string, password: string) => {
   try {
-    const res = await fetch("http://localhost:8000/auth/login", {
+    const res = await fetch("http://fraud-api-production-4a4e.up.railway.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
@@ -96,7 +96,7 @@ export const login = async (email: string, password: string) => {
 
 export const forgotPassword = async (email: string) => {
   try {
-    const res = await fetch("http://localhost:8000/auth/forgot-password", {
+    const res = await fetch("http://fraud-api-production-4a4e.up.railway.app/auth/forgot-password", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),
@@ -110,7 +110,7 @@ export const forgotPassword = async (email: string) => {
 
 export const verifyOTP = async (email: string, otp_code: string) => {
   try {
-    const res = await fetch("http://localhost:8000/auth/verify-otp", {
+    const res = await fetch("http://fraud-api-production-4a4e.up.railway.app/auth/verify-otp", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, otp_code }),
@@ -130,7 +130,7 @@ export const resetPassword = async (
   email: string, otp_code: string, new_password: string
 ) => {
   try {
-    const res = await fetch("http://localhost:8000/auth/reset-password", {
+    const res = await fetch("http://fraud-api-production-4a4e.up.railway.app/auth/reset-password", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, otp_code, new_password }),
@@ -173,7 +173,7 @@ export const analyzeTransaction = async (
       is_weekend: data.is_weekend ? 1 : 0,
     };
 
-    const response = await fetch("http://localhost:8000/predict", {
+    const response = await fetch("https://fraud-api-production-4a4e.up.railway.app/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
